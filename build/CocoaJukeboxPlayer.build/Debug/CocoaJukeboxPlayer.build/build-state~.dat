@@ -1,0 +1,104 @@
+TCocoaJukeboxPlayer
+v7
+r0
+t281652229.605978
+cCheck dependencies
+cProcessPCH /var/folders/HP/HPYV2PBTFN4Jyk7MdbianE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CocoaJukeboxPlayer_Prefix-akmvfgdsskohmycwdeuivfnneuwj/CocoaJukeboxPlayer_Prefix.pch.gch CocoaJukeboxPlayer_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/CocoaJukeboxPlayer normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004ABBF0FD00000000000000EE
+t1253830909
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004ABBF0EC000000000025462C
+t1253830892
+s2442796
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h
+c000000004A67D2AB000000000000128E
+t1248318123
+s4750
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004AB9AA2700000000000013E6
+t1253681703
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004AD8432D0000000000B37440
+t1255686957
+s11760704
+
+N/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m
+c000000004B19748000000000000002EE
+t1259959424
+s750
+i<Foundation/Foundation.h>
+i<AppKit/NSSound.h>
+
+N/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch
+c000000004B19746300000000000000B2
+t1259959395
+s178
+i<Foundation/Foundation.h>
+
+N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.LinkFileList
+c000000004B1974820000000000000090
+t1259959426
+s144
+
+N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o
+t1259959429
+s10612
+
+N/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/CocoaJukeboxPlayer
+t1259959429
+s9680
+
+N/var/folders/HP/HPYV2PBTFN4Jyk7MdbianE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CocoaJukeboxPlayer_Prefix-akmvfgdsskohmycwdeuivfnneuwj/CocoaJukeboxPlayer_Prefix.pch.gch
+t1259959429
+s41405200
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281652226#281652226#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s281652229.401488
+e281652229.564355
+r1
+xCompileC
+xbuild/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o
+x/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281652229#281652229#0(0"0(0#0#59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m4300885448#1698"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/DerivedSources/x86_64 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/DerivedSources -include /var/folders/HP/HPYV2PBTFN4Jyk7MdbianE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CocoaJukeboxPlayer_Prefix-akmvfgdsskohmycwdeuivfnneuwj/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o0#
+
+CLd /Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/CocoaJukeboxPlayer normal x86_64
+s281652229.564456
+e281652229.605926
+r1
+xLd
+x/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/CocoaJukeboxPlayer
+xnormal
+xx86_64
+lSLF07#2@74"Link /Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/CocoaJukeboxPlayer281652229#281652229#0(0"0(0#0#0"4300885448#582"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug -filelist /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -o /Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/CocoaJukeboxPlayer0#
+
+CProcessPCH /var/folders/HP/HPYV2PBTFN4Jyk7MdbianE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CocoaJukeboxPlayer_Prefix-akmvfgdsskohmycwdeuivfnneuwj/CocoaJukeboxPlayer_Prefix.pch.gch CocoaJukeboxPlayer_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s281652226.397326
+e281652229.401182
+r1
+xProcessPCH
+x/var/folders/HP/HPYV2PBTFN4Jyk7MdbianE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CocoaJukeboxPlayer_Prefix-akmvfgdsskohmycwdeuivfnneuwj/CocoaJukeboxPlayer_Prefix.pch.gch
+xCocoaJukeboxPlayer_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile CocoaJukeboxPlayer_Prefix.pch281652226#281652229#0(0"0(0#0#68"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch4300885448#1565"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Debug/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/DerivedSources/x86_64 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Debug/CocoaJukeboxPlayer.build/DerivedSources -c /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -o /var/folders/HP/HPYV2PBTFN4Jyk7MdbianE+++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/CocoaJukeboxPlayer_Prefix-akmvfgdsskohmycwdeuivfnneuwj/CocoaJukeboxPlayer_Prefix.pch.gch0#
+
