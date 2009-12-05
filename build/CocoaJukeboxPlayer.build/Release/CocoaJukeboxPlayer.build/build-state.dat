@@ -1,395 +1,0 @@
-TCocoaJukeboxPlayer
-v7
-r0
-t281678364.433804
-cCheck dependencies
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Jukebox.o /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Hammertime.o /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Jukebox.o /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer normal x86_64
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Hammertime.o /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer normal i386
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Jukebox.o /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Hammertime.o /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cLd /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer normal ppc
-cCreateUniversalBinary /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer normal "x86_64 i386 ppc"
-cGenerateDSYMFile /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer.dSYM /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004ABBF0FD00000000000000EE
-t1253830909
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-c000000004ABBF0EC000000000025462C
-t1253830892
-s2442796
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h
-c000000004A67D2AB000000000000128E
-t1248318123
-s4750
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004AB9AA2700000000000013E6
-t1253681703
-s5094
-
-N/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004AD8432D0000000000B37440
-t1255686957
-s11760704
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m
-c000000004B19D0DD00000000000008C6
-t1259983069
-s2246
-i<Foundation/Foundation.h>
-i<AppKit/NSSound.h>
-i"Jukebox.h"
-i"Hammertime.h"
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch
-c000000004B197532000000000000003D
-t1259959602
-s61
-i<Foundation/Foundation.h>
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.h
-c000000004B19C44A000000000000019A
-t1259979850
-s410
-i<Cocoa/Cocoa.h>
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m
-c000000004B19C114000000000000023F
-t1259979028
-s575
-i<AppKit/NSSound.h>
-i"Hammertime.h"
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.h
-c000000004B19B4AD0000000000000185
-t1259975853
-s389
-i<Cocoa/Cocoa.h>
-i<AppKit/NSSound.h>
-i"Hammertime.h"
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m
-c000000004B19DA9100000000000007A1
-t1259985553
-s1953
-i<AppKit/NSSound.h>
-i"Jukebox.h"
-i"Hammertime.h"
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer
-t1259985563
-s21440
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.LinkFileList
-c000000004B19D860000000000000019D
-t1259984992
-s413
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.o
-t1259985016
-s12856
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Hammertime.o
-t1259985018
-s10204
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Jukebox.o
-t1259985562
-s13512
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer
-t1259985564
-s21108
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.LinkFileList
-c000000004B19D860000000000000019A
-t1259984992
-s410
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.o
-t1259985021
-s14192
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Hammertime.o
-t1259985022
-s9948
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Jukebox.o
-t1259985564
-s14408
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer
-t1259985563
-s19048
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.LinkFileList
-c000000004B19D86000000000000001A3
-t1259984992
-s419
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o
-t1259985012
-s16708
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Hammertime.o
-t1259985016
-s13296
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Jukebox.o
-t1259985562
-s18948
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer
-t1259985564
-s70260
-
-N/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer.dSYM
-t1259985564
-s102
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies281678360#281678361#0(0"0(0#1#0"7308063782661481472#0"0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281677814.349859
-e281677817.008859
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playing
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m play
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m pausePlaying
-o/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:36:20: warning: expression result unused [-Wunused-value]
-o                play(hammertime) || play(currentTrack);
-o                ~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleStateChange
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m stopHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m skipCurrentTrack
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playJukeboxTrack
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handlePlaylist
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m rest
-o/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:117:65: warning: expression result unused [-Wunused-value]
-o                handleStateChange() || handleHammertime() || handlePlaylist() || rest();
-o                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playFromJukebox
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m main
-o2 diagnostics generated.
-lSLF07#2@67"Compile /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281677814#281677817#0(1613"ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playingANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m pausePlaying/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:36:20: warning: expression result unused [-Wunused-value]                play(hammertime) || play(currentTrack);                ~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleStateChangeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m stopHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m skipCurrentTrackANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playJukeboxTrackANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handlePlaylistANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m rest/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:117:65: warning: expression result unused [-Wunused-value]                handleStateChange() || handleHammertime() || handlePlaylist() || rest();                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playFromJukeboxANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m main2 diagnostics generated.2(22@41"Expression result unused [-Wunused-value]281677816#233#118#0(6@59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281675869#36#0#36#0#0"0(22@41"Expression result unused [-Wunused-value]281677816#1133#119#0(6@59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281675869#117#0#117#0#0"0(0#0#59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m4301200840#1644"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/i386 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Hammertime.o /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281677817.287210
-e281677819.487382
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Hammertime.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m initWithFile:StartTime:endTime:pauseAfter:
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m finished
-lSLF07#2@59"Compile /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m281677817#281677819#0(174"ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m initWithFile:StartTime:endTime:pauseAfter:ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m finished0(0#0#51"/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m4301200840#1628"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/i386 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Hammertime.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Jukebox.o /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s281678361.251293
-e281678363.113212
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Jukebox.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m status
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m skip
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m pause
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextPlaylistEntry
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m get:
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m post:
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m request:withMethod:
-lSLF07#2@56"Compile /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m281678361#281678363#0(546"ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m statusANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m skipANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m pauseANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextPlaylistEntryANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m get:ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m post:ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m request:withMethod:0(0#0#48"/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m4301200840#1622"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/i386 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/Jukebox.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s281677819.236024
-e281677821.589002
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281677819#281677821#0(0"0(0#0#59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m4301200840#1638"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/ppc -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Hammertime.o /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s281677821.492740
-e281677822.686715
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Hammertime.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m281677821#281677822#0(0"0(0#0#51"/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m4301200840#1622"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/ppc -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Hammertime.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Jukebox.o /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s281678363.319280
-e281678364.289396
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Jukebox.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m281678363#281678364#0(0"0(0#0#48"/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m4301200840#1616"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/ppc -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/Jukebox.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s281677792.900984
-e281677814.349638
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playing
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m play
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m pausePlaying
-o/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:36:20: warning: expression result unused [-Wunused-value]
-o                play(hammertime) || play(currentTrack);
-o                ~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleStateChange
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m stopHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m skipCurrentTrack
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playJukeboxTrack
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handlePlaylist
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m rest
-o/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:117:65: warning: expression result unused [-Wunused-value]
-o                handleStateChange() || handleHammertime() || handlePlaylist() || rest();
-o                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playFromJukebox
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m main
-o2 diagnostics generated.
-lSLF07#2@67"Compile /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281677792#281677814#0(1613"ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playingANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m pausePlaying/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:36:20: warning: expression result unused [-Wunused-value]                play(hammertime) || play(currentTrack);                ~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleStateChangeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m stopHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handleHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m skipCurrentTrackANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playJukeboxTrackANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m handlePlaylistANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m rest/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m:117:65: warning: expression result unused [-Wunused-value]                handleStateChange() || handleHammertime() || handlePlaylist() || rest();                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m playFromJukeboxANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m main2 diagnostics generated.2(22@41"Expression result unused [-Wunused-value]281677814#233#118#0(6@59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281675869#36#0#36#0#0"0(22@41"Expression result unused [-Wunused-value]281677814#1133#119#0(6@59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m281675869#117#0#117#0#0"0(0#0#59"/Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m7020074397358777344#1650"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/x86_64 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Hammertime.o /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s281677814.344821
-e281677816.942171
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Hammertime.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m initWithFile:StartTime:endTime:pauseAfter:
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m finished
-lSLF07#2@59"Compile /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m281677814#281677816#0(174"ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m initWithFile:StartTime:endTime:pauseAfter:ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m finished0(0#0#51"/Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m7306934743213241344#1634"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/x86_64 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/Hammertime.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Hammertime.o0#
-
-CCompileC build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Jukebox.o /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s281678361.246783
-e281678363.051451
-r1
-xCompileC
-xbuild/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Jukebox.o
-x/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m status
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m skip
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m pause
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextPlaylistEntry
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextHammertime
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m get:
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m post:
-oANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m request:withMethod:
-lSLF07#2@56"Compile /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m281678361#281678363#0(546"ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m statusANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m skipANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m pauseANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextPlaylistEntryANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m nextHammertimeANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m get:ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m post:ANALYZE: /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m request:withMethod:0(0#0#48"/Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m8017303874223370240#1628"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv LANG en_US.US-ASCII    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-generated-files.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-own-target-headers.hmap -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-all-target-headers.hmap -iquote /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/CocoaJukeboxPlayer-project-headers.hmap -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -I/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/include -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources/x86_64 -I/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/DerivedSources -include /Users/hammer/forge/CocoaJukeboxPlayer/CocoaJukeboxPlayer_Prefix.pch -c /Users/hammer/forge/CocoaJukeboxPlayer/Jukebox.m -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/Jukebox.o0#
-
-CCreateUniversalBinary /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer normal "x86_64 i386 ppc"
-s281678364.387139
-e281678364.391007
-r1
-xCreateUniversalBinary
-x/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@79"CreateUniversalBinary build/Release/CocoaJukeboxPlayer normal "x86_64 i386 ppc"281678364#281678364#0(0"0(0#0#54"/Users/hammer/forge/CocoaJukeboxPlayer/x86_64 i386 ppc4301200840#579"    cd /Users/hammer/forge/CocoaJukeboxPlayer    /usr/bin/lipo -create /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer -output /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer0#
-
-CGenerateDSYMFile /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer.dSYM /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer
-s281678364.391588
-e281678364.433672
-r1
-xGenerateDSYMFile
-x/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer.dSYM
-x/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer
-lSLF07#2@87"GenerateDSYMFile build/Release/CocoaJukeboxPlayer.dSYM build/Release/CocoaJukeboxPlayer281678364#281678364#0(0"0(0#0#71"/Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer4301200840#230"    cd /Users/hammer/forge/CocoaJukeboxPlayer    /Developer/usr/bin/dsymutil /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer -o /Users/hammer/forge/CocoaJukeboxPlayer/build/Release/CocoaJukeboxPlayer.dSYM0#
-
-CLd /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer normal i386
-s281678363.113422
-e281678363.319078
-r1
-xLd
-x/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer
-xnormal
-xi386
-lSLF07#2@146"Link /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer281678363#281678363#0(0"0(0#0#0"4301200840#686"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -filelist /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/i386/CocoaJukeboxPlayer0#
-
-CLd /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer normal ppc
-s281678364.289520
-e281678364.386946
-r1
-xLd
-x/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer
-xnormal
-xppc
-lSLF07#2@145"Link /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer281678364#281678364#0(0"0(0#0#0"4301200840#683"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -filelist /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/ppc/CocoaJukeboxPlayer0#
-
-CLd /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer normal x86_64
-s281678363.052094
-e281678363.321010
-r1
-xLd
-x/Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer
-xnormal
-xx86_64
-lSLF07#2@148"Link /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer281678363#281678363#0(0"0(0#0#0"30399714103722096#692"    cd /Users/hammer/forge/CocoaJukeboxPlayer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Users/hammer/Downloads/checker-229/libexec/ccc-analyzer -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -F/Users/hammer/forge/CocoaJukeboxPlayer/build/Release -filelist /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -o /Users/hammer/forge/CocoaJukeboxPlayer/build/CocoaJukeboxPlayer.build/Release/CocoaJukeboxPlayer.build/Objects-normal/x86_64/CocoaJukeboxPlayer0#
-
