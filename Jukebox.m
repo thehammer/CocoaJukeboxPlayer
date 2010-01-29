@@ -18,10 +18,9 @@
 
 + (NSSound*) nextPlaylistEntry {
 	NSSound* playlistEntry = [[NSSound alloc] initWithContentsOfFile:[self get: @"next_entry"] byReference:YES];
-	[playlistEntry release];
 	NSMakeCollectable(playlistEntry);
 	
-	return playlistEntry;
+	return [playlistEntry autorelease];
 }
 
 + (Hammertime*) nextHammertime {
@@ -36,10 +35,9 @@
 	BOOL           pause = [[components objectAtIndex:3] isEqual:@"pause"];
 
 	Hammertime* hammertime = [[Hammertime alloc] initWithFile:file StartTime:start endTime:end pauseAfter:pause];
-	[hammertime release];
 	NSMakeCollectable(hammertime);
 	
-	return hammertime;
+	return [hammertime autorelease];
 }
 
 + (NSString*) get: (NSString*) element {
@@ -61,9 +59,8 @@
 	NSData *urlData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:&response error:&error];
 
 	NSString* responseString = [[NSString alloc] initWithData:urlData encoding:NSASCIIStringEncoding];
-	[responseString release];
 	NSMakeCollectable(responseString);
 	
-	return responseString;
+	return [responseString autorelease];
 }
 @end

@@ -30,6 +30,8 @@ BOOL handleStateChange() {
 	if ([jukeboxStatus isEqual: status])
 		return false;
 
+	[jukeboxStatus retain];
+	[status release];
 	status = jukeboxStatus;
 	
 	if (playing()) {
@@ -64,7 +66,8 @@ BOOL playHammertime() {
 	if (hammertime != nil && [hammertime isPlaying])
 		return true;
 	
-	hammertime = [Jukebox nextHammertime];
+	[hammertime release];
+	hammertime = [[Jukebox nextHammertime] retain];
 	
 	if (hammertime == nil)
 		return false;
@@ -98,7 +101,8 @@ BOOL playJukeboxTrack() {
 	if (currentTrack != nil && [currentTrack isPlaying])
 		return true;
 	
-	currentTrack = [Jukebox nextPlaylistEntry];
+	[currentTrack release];
+	currentTrack = [[Jukebox nextPlaylistEntry] retain];
 
 	return play(currentTrack);
 }
@@ -114,16 +118,15 @@ BOOL rest() {
 
 int	playFromJukebox() {
 	while (true) {
+		NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 		handleStateChange() || handleHammertime() || handlePlaylist() || rest();
+		[pool drain];
 	}
 	
 	return 0;
 }
 
 int main (int argc, const char * argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];	
 	int rc = playFromJukebox();
-	[pool drain];
-
     return rc;
 }
