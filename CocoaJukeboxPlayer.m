@@ -99,7 +99,7 @@ BOOL playJukeboxTrack() {
 		return false;
 	
 	if (currentTrack != nil && [currentTrack isPlaying])
-		return true;
+		return false;
 	
 	[currentTrack release];
 	currentTrack = [[Jukebox nextPlaylistEntry] retain];
@@ -112,7 +112,7 @@ BOOL handlePlaylist() {
 }
 
 BOOL rest() {
-	sleep(1);
+	[[NSRunLoop currentRunLoop] runUntilDate: [NSDate dateWithTimeIntervalSinceNow: 1]];
 	return true;
 }
 
@@ -127,6 +127,5 @@ int	playFromJukebox() {
 }
 
 int main (int argc, const char * argv[]) {
-	int rc = playFromJukebox();
-    return rc;
+	return playFromJukebox();
 }
