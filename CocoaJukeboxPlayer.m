@@ -52,7 +52,6 @@ BOOL stopHammertime() {
 		[Jukebox pause];
 		
 	[hammertime stop];
-	NSMakeCollectable(hammertime);
 	[hammertime release];
 	hammertime = nil;
 	
@@ -87,7 +86,6 @@ BOOL skipCurrentTrack() {
 		return false;
 	
 	[currentTrack stop];
-	NSMakeCollectable(currentTrack);
 	[currentTrack release];
 	currentTrack = nil;
 	
